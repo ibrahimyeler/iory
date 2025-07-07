@@ -20,7 +20,7 @@ export default function Header() {
             <a href="#new" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
               Yeni Gelenler
             </a>
-            <a href="#dresses" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+            <a href="/elbiseler" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
               Elbiseler
             </a>
             <a href="#tops" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
@@ -58,7 +58,7 @@ export default function Header() {
               <a href="#new" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
                 Yeni Gelenler
               </a>
-              <a href="#dresses" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
+              <a href="/elbiseler" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
                 Elbiseler
               </a>
               <a href="#tops" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
