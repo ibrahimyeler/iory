@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
@@ -6,7 +7,7 @@ const testimonials = [
     name: "Ayşe K.",
     location: "İstanbul",
     rating: 5,
-    comment: "iory&rsquo;den aldığım elbise gerçekten harika! Kalitesi ve uyumu mükemmel. Kesinlikle tavsiye ederim.",
+    comment: "iory&apos;den aldığım elbise gerçekten harika! Kalitesi ve uyumu mükemmel. Kesinlikle tavsiye ederim.",
     avatar: "👩‍💼"
   },
   {
