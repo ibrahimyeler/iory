@@ -139,7 +139,7 @@ export default function ElbiselerGrid() {
         {/* Products Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {elbiseler.map((elbise) => (
-            <div key={elbise.id} className="group relative bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100">
+            <a key={elbise.id} href={`/urun-detay/${elbise.id}`} className="group relative bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 block">
               {/* Product Image */}
               <div className="relative aspect-[3/4] bg-gradient-to-br from-pink-50 to-purple-50 rounded-t-xl flex items-center justify-center overflow-hidden">
                 <div className="text-6xl">{elbise.image}</div>
@@ -239,7 +239,7 @@ export default function ElbiselerGrid() {
                   )}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
